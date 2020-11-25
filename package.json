@@ -1,0 +1,36 @@
+{
+  "name": "proxyshop",
+  "version": "1.0.0",
+  "description": "nodejs client for https://proxy.shop",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md index.js > api.md",
+    "test": "jest"
+  },
+  "keywords": [
+    "bots",
+    "automation",
+    "confirmation",
+    "activation",
+    "authentication",
+    "auth",
+    "code",
+    "pin",
+    "otp",
+    "login",
+    "security"
+  ],
+  "author": "Nico Kokonas <nico@nicomee.com> (https://nicomee.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "got": "^11.8.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jsdoc": "^3.6.6",
+    "jsdoc-to-markdown": "^6.0.1",
+    "update-markdown-jsdoc": "^1.0.11"
+  }
+}
